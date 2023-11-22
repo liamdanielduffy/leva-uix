@@ -2,7 +2,7 @@
 
 ## About
 
-This project is a rewrite of the [Leva.cljs library]([url](https://github.com/mentat-collective/Leva.cljs)) that replaces [Reagent]([url](https://reagent-project.github.io/)) with [UIx]([url](https://pitch-io.github.io/uix/docs/))
+This project is a rewrite of the [Leva.cljs library](https://github.com/mentat-collective/Leva.cljs) that replaces [Reagent](https://reagent-project.github.io/) with [UIx](https://pitch-io.github.io/uix/docs/)
 
 Much of the code in `src/leva` is unchanged from the original project. The main changes have happened in `src/leva/core.cljs` where we replace Reagent syntax with UIx syntax.
 
