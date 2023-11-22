@@ -6,11 +6,7 @@ This project is a rewrite of the [Leva.cljs library](https://github.com/mentat-c
 
 Much of the code in `src/leva` is unchanged from the original project. The main changes have happened in `src/leva/core.cljs` where we replace Reagent syntax with UIx syntax.
 
-In `src/app` we run a small demo (TODO, not yet working) demo-ing the use of the UIx Leva panel.
-
-## TODO
-
-- [ ] get working demo with UIx, figure out how to sync atom state with React state.
+In `src/app` we run a small demo demo-ing the use of the UIx Leva panel. A custom hook called "use-reactive-atom" makes sure that whenever Leva panel updates the value of an atom, React re-renders the component. 
 
 ## Development
 
