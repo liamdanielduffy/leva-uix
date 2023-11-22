@@ -10,7 +10,7 @@ In `src/app` we run a small demo (TODO, not yet working) demo-ing the use of the
 
 ## TODO
 
-- get working demo with UIx, figure out how to sync atom state with React state.
+- [ ] get working demo with UIx, figure out how to sync atom state with React state.
 
 ## Development
 
